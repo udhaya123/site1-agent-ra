@@ -70,6 +70,12 @@ main {
     padding: 1rem 1.5rem;
     box-shadow: 0 1px 3px rgba(30,40,90,0.04);
 }
+    text-align: center;
+    padding: 1.5rem 0 1rem 0;
+    background: #1a237e;
+    color: #fff;
+    margin-top: 2rem;
+    border-radius: 0 0 8px 8px;
 footer {
     text-align: center;
     padding: 1.5rem 0 1rem 0;
@@ -77,6 +83,84 @@ footer {
     color: #fff;
     margin-top: 2rem;
     border-radius: 0 0 8px 8px;
+}
+
+/* Quick Links and Featured Blog */
+.quick-links, .featured-blog, .ai-fields-summary {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f1f3fa;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(30,40,90,0.06);
+}
+.quick-links ul, .featured-blog ul, .ai-fields-summary ul {
+    list-style: disc inside;
+    padding-left: 1.5rem;
+}
+.quick-links h2, .featured-blog h2, .ai-fields-summary h2 {
+    margin-top: 0;
+}
+
+/* Blog List */
+.blog-list {
+    list-style: none;
+    padding: 0;
+}
+.blog-list li {
+    margin-bottom: 1.2rem;
+    background: #e3e7f1;
+    border-radius: 6px;
+    padding: 0.8rem 1.2rem;
+    box-shadow: 0 1px 2px rgba(30,40,90,0.03);
+}
+.blog-list a {
+    color: #1a237e;
+    text-decoration: none;
+    font-weight: 500;
+}
+.blog-list a:hover {
+    text-decoration: underline;
+    color: #ffb300;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact-form label {
+    font-weight: 500;
+}
+.contact-form input, .contact-form textarea {
+    padding: 0.7rem;
+    border: 1px solid #b0bec5;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.contact-form button {
+    background: #1a237e;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.contact-form button:hover {
+    background: #3949ab;
+}
+
+/* Team and About Sections */
+main ul {
+    margin-bottom: 1.5rem;
+}
+main ul li strong {
+    color: #1a237e;
 }
 @media (max-width: 700px) {
     .features {
